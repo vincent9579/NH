@@ -1,0 +1,63 @@
+{
+        "type": "flex",
+        "altText": "Flex Message",
+        "contents": {
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://ikurumi.com/picture/16.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "https://ikurumi.com/picture/16.jpg"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "關於這隻機器人",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "這是蒼混合了網上開源的機器人配上自己的想法做出的機器人~",
+        "wrap": true,
+        "align": "start"
+      },
+      {
+        "type": "text",
+        "text": "做機器人單純只是個人嗜好,希望能幫助大家查詢資源更方便喔OuOb",
+        "wrap": true
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "個人網站",
+          "uri": "https://www.vincent9579.wtf/"
+        }
+      },
+      {
+        "type": "spacer",
+        "size": "sm"
+      }
+    ],
+    "flex": 0
+  }
+}
+    }
